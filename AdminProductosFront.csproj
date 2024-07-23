@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>AdminProductosFront.Program</StartupObject>
+    <ApplicationIcon>marshall_paw_patrol_canine_patrol_icon_263825.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="marshall_paw_patrol_canine_patrol_icon_263825.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdminProductosEntidades\AdminProductosEntidades.csproj" />
+    <ProjectReference Include="..\AdminProductosNegocio\AdminProductosNegocio.csproj" />
+  </ItemGroup>
+
+</Project>
